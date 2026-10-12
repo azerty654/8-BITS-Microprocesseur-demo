@@ -93,6 +93,7 @@ Comme dit précédemment, chaque instruction du programme est composée de micro
 - ``JNEG`` → sert à sauter d'une instruction du script à une autre si le dernier résultat calculé par l'ALU est négatif, s'exécute en une micro-instruction
 - ``JZ`` → sert à sauter d'une instruction du script à une autre si le dernier résultat calculé par l'ALU est nul, s'exécute en une micro-instruction
 
-#Démonstration du microprocesseur
+# Démonstration du microprocesseur
+
 Pour démontrer les capacités techniques de mon microprocesseur, j’ai écrit un programme dans mon propre langage assembleur permettant de calculer le PGCD de deux nombres.
 Le processeur étant conçu sur 8 bits, les nombres utilisés sont compris entre 0 et 255. Dans l’exemple fourni dans le fichier programme.txt, le programme calcule le PGCD(252, 198) en utilisant l’algorithme d’Euclide par soustractions successives.
