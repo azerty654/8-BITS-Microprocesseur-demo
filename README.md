@@ -96,4 +96,6 @@ Comme dit précédemment, chaque instruction du programme est composée de micro
 # Démonstration du microprocesseur
 
 Pour démontrer les capacités techniques de mon microprocesseur, j’ai écrit un programme dans mon propre langage assembleur permettant de calculer le PGCD de deux nombres.
-Le processeur étant conçu sur 8 bits, les nombres utilisés sont compris entre 0 et 255. Dans l’exemple fourni dans le fichier programme.txt, le programme calcule le PGCD(252, 198) en utilisant l’algorithme d’Euclide par soustractions successives.
+Le processeur étant conçu sur 8 bits, les nombres utilisés sont compris entre 0 et 255.
+
+Dans l’exemple fourni dans le fichier programme.txt, le programme calcule le PGCD(252, 198) en utilisant l’algorithme d’Euclide par soustractions successives.
