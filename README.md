@@ -8,7 +8,7 @@ Ce projet est composé de deux parties distinctes : l'assembleur écrit en Pytho
 
 # Architecture du microprocesseur
 
-* Dispose d'une unité arithmétique et logique (ALU) complète : addition, soustraction, multiplication, division, opérations logiques (AND, NAND, OR, NOR, XOR, XNOR, NOT)
+* Dispose d'une unité arithmétique et logique (ALU) complète : addition, soustraction, multiplication, division et  opérations logiques (AND, NAND, OR, NOR, XOR, XNOR, NOT)
 * Registres généraux adressables (7 registres principaux, 2 sous-registres dédiés à l'ALU, 1 registre d'état, 1 registre Work)
 * BUS de données
 * Unité de commande programmable composée de deux mémoires ROM (Instructions ROM, Data ROM) et d’un compteur intégré pour défiler les micro-instructions à chaque cycle d’horloge
