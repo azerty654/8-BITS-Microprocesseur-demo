@@ -102,3 +102,5 @@ Dans l’exemple fourni dans le fichier `programme.txt`, le programme calcule le
 quand le programme trouve le PGCD, il réinitialise le compteur interne de l’unité de contrôle et désactive les battements d’horloge, pour relancer à nouveau le programme, il faut actionner le bouton « reset » de l’unité de contrôle. 
 
 le PGCD des deux nombres sera affiché sur le bus de données principale quand le programme aura finit son exécution.
+
+![CODE PGCD](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/code%20assembleur%20du%20PGCD%20.png?raw=true)
