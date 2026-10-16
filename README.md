@@ -99,7 +99,7 @@ Pour démontrer les capacités techniques de mon microprocesseur, j’ai écrit 
 Le processeur étant conçu sur **8 bits**, les nombres utilisés sont compris entre **0 et 255.**
 
 Dans l’exemple fourni dans le fichier `programme.txt`, le programme calcule le PGCD(252, 198) en utilisant l’algorithme d’Euclide par soustractions successives.
-quand le programme trouve le PGCD, il réinitialise le compteur interne de l’unité de contrôle et désactive les battements d’horloge, pour relancer à nouveau le programme, il faut actionner le bouton « reset » de l’unité de contrôle. 
+quand le programme trouve le PGCD, il réinitialise le compteur interne de l’unité de contrôle et désactive les battements d’horloge. Pour relancer à nouveau le programme, il faut actionner le bouton « reset » de l’unité de contrôle. 
 
 le PGCD des deux nombres sera affiché sur le bus de données principale quand le programme aura finit son exécution.
 
