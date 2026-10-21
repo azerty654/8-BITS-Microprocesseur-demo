@@ -40,7 +40,7 @@ Ce projet est composé de deux parties distinctes : l'assembleur écrit en Pytho
 
 # Micro-instructions
 
-Comme dit précédemment, chaque instruction du programme est composée de micro-instructions de 15 bits chacune, leur nombre peut varier d'une instruction à l'autre (par exemple, l'instruction MOVE comporte 6 micro-instructions tandis que l'instruction WRITE n'en comporte que 3). Quand l'instruction comporte moins de 8 micro-instructions, le reste des blocs non utilisés sont automatiquement remplis par des 0 jusqu'à combler le reste.
+Comme indiqué précédemment, chaque instruction du programme est composée de micro-instructions de 15 bits chacune, leur nombre peut varier d'une instruction à l'autre (par exemple, l'instruction MOVE comporte 6 micro-instructions tandis que l'instruction WRITE n'en comporte que 3). Quand l'instruction comporte moins de 8 micro-instructions, le reste des blocs non utilisés sont automatiquement remplis par des 0 jusqu'à combler le reste (cela est vrai pour toutes les instructions sauf pour celles qui font appel à l'ALU, ces dernières gardent l'identifiant binaire de l'opération en cours sur 4 bits).
 
 **Répartition des bits d'instruction** → Ces bits sont arrangés ainsi (du LSB au MSB) :
 
